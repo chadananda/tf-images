@@ -1,4 +1,4 @@
-# tf-images -- TensforFlow Keyword Image Grabber
+# tensorflow-image-fetcher -- TensforFlow Keyword Image Grabber
 
 <p align="center">
   <img src="sshot.png" height="400">
@@ -15,7 +15,7 @@ It has not been tested on Windows. Because I already did my time. Pull requests 
 ## To install
 
 ```.js
-npm i -g tf-images
+npm i -g tensorflow-image-fetcher
 ```
 
 ## To Use

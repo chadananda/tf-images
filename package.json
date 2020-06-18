@@ -1,5 +1,5 @@
 {
-  "name": "tf-images",
+  "name": "tensorflow-image-fetcher",
   "version": "1.0.1",
   "description": "simple CLI command to borrow lots of images for training tensorflow",
   "main": "index.js",
