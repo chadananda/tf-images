@@ -1,6 +1,6 @@
 {
   "name": "tensorflow-image-fetcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple CLI command to borrow lots of images for training tensorflow",
   "main": "index.js",
   "scripts": {
@@ -48,9 +48,7 @@
     "md5": "^2.2.1",
     "minimist": "^1.2.5",
     "simple-git": "^2.7.0",
-    "touch": "^3.1.0"
-  },
-  "devDependencies": {
+    "touch": "^3.1.0",
     "inquirer": "^7.2.0"
   }
 }

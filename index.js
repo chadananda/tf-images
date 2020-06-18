@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 /****************************
-
 This was an afternoon project I wrote to help my 7-yr-old learn TensorFlow.js
 
 Why? Gathering up training images is a pain. With this CLI command, you can gather
@@ -13,7 +12,6 @@ Just install globally and then, from inside any directory invoke like:
 
 A `ts-images` dir will be created with sub-directories `dog`, `cat` etc.
 Each sub-directory will contain hundreds of keyword images.
-
 **************************/
 
 const axios = require('axios')
