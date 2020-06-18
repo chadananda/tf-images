@@ -18,7 +18,7 @@ It has not been tested on Windows. Because I already did my time. Pull requests 
 npm i -g tensorflow-image-fetcher  --unsafe-perm
 ```
 
-_Note that `--unsafe-perm` is required for installing the 'puppeteer' sub-component. This allows the scraper to simulate a browser and fetch Google image results._
+_Note that `--unsafe-perm` is required for globally installing 'puppeteer'. This module provides a headless browser, allowing the script to simulate a browser and scrape Google image results._
 
 ## To Use
 
