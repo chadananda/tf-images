@@ -1,0 +1,56 @@
+{
+  "name": "tf-images",
+  "version": "1.0.1",
+  "description": "simple CLI command to borrow lots of images for training tensorflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/chadananda/tf-images/readme.md",
+  "bugs": "https://github.com/chadananda/tf-images/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chadananda/tf-images"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "bin": {
+    "tf-images": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Chad Jones <chadananda@gmail.com> (http://notepad.com/)",
+  "license": "ISC",
+  "keywords": [
+    "cli",
+    "tensorflow",
+    "machine",
+    "learning",
+    "ml",
+    "tf.js",
+    "get images",
+    "download images"
+  ],
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.5",
+    "@octokit/rest": "^18.0.0",
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "figlet": "^1.4.0",
+    "google-image-downloader": "0.0.8",
+    "images-scraper": "^5.0.7",
+    "lodash": "^4.17.15",
+    "md5": "^2.2.1",
+    "minimist": "^1.2.5",
+    "simple-git": "^2.7.0",
+    "touch": "^3.1.0"
+  },
+  "devDependencies": {
+    "inquirer": "^7.2.0"
+  }
+}
