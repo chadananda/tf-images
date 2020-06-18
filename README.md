@@ -1,6 +1,8 @@
 # tf-images -- TensforFlow Keyword Image Grabber
 
-![](sshot.png | width=300)
+<p align="center">
+  <img src="sshot.png" height="400">
+</p>
 
 CLI tool for quickly fetching thousands of keyword images for ML training
 
@@ -13,17 +15,20 @@ It has not been tested on Windows. Because I already did my time. Pull requests 
 ## To install
 
 ```.js
-npm i -g tensorflow-images
+npm i -g tf-images
 ```
 
-## Why?
+## To Use
 
-Just install globally and then, from inside any directory invoke like:
+After installing globally, cd to any directory and invoke like:
 
 ```.js
-ts-images "dog, cat, mouse, rat"
+tf-images "dog, cat, mouse, rat"
 ```
 
-A `ts-images` dir will be created with sub-directories `dog`, `cat` etc.
-Each sub-directory will contain hundreds of keyword images.pm
+A `tf-images` directory will be created with sub-directories `dog`, `cat` etc.
+Each sub-directory will contain hundreds of keyword images.
+
+
+
 
