@@ -1,6 +1,6 @@
 # tf-images -- TensforFlow Keyword Image Grabber
 
-![Screen Shot](sshot.png | height=300)
+![](sshot.png | width=300)
 
 CLI tool for quickly fetching thousands of keyword images for ML training
 
